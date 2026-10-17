@@ -1,0 +1,122 @@
+[
+    {
+        "codigo": "FER001",
+        "nombre": "Martillo de Uña 16 oz",
+        "precio": 120,
+        "existencia": 25
+    },
+    {
+        "codigo": "FER002",
+        "nombre": "Taladro Percutor 1/2\"",
+        "precio": 1200,
+        "existencia": 10
+    },
+    {
+        "codigo": "FER003",
+        "nombre": "Cemento Gris 50 kg",
+        "precio": 245,
+        "existencia": 42
+    },
+    {
+        "codigo": "FER004",
+        "nombre": "Llave Ajustable 12\"",
+        "precio": 180,
+        "existencia": 18
+    },
+    {
+        "codigo": "FER005",
+        "nombre": "Destornillador Plano 6\"",
+        "precio": 85,
+        "existencia": 30
+    },
+    {
+        "codigo": "FER006",
+        "nombre": "Destornillador Phillips 6\"",
+        "precio": 85,
+        "existencia": 28
+    },
+    {
+        "codigo": "FER007",
+        "nombre": "Pinza Universal 8\"",
+        "precio": 220,
+        "existencia": 15
+    },
+    {
+        "codigo": "FER008",
+        "nombre": "Cinta Aislante Negra",
+        "precio": 25,
+        "existencia": 100
+    },
+    {
+        "codigo": "FER009",
+        "nombre": "Cable THW Calibre 12",
+        "precio": 18,
+        "existencia": 200
+    },
+    {
+        "codigo": "FER010",
+        "nombre": "Interruptor Sencillo",
+        "precio": 45,
+        "existencia": 60
+    },
+    {
+        "codigo": "FER011",
+        "nombre": "Contacto Doble Polarizado",
+        "precio": 65,
+        "existencia": 40
+    },
+    {
+        "codigo": "FER012",
+        "nombre": "Tubo PVC 2 m",
+        "precio": 95,
+        "existencia": 75
+    },
+    {
+        "codigo": "FER013",
+        "nombre": "Codo PVC 1/2\"",
+        "precio": 12,
+        "existencia": 120
+    },
+    {
+        "codigo": "FER014",
+        "nombre": "Llave para Lavabo",
+        "precio": 350,
+        "existencia": 12
+    },
+    {
+        "codigo": "FER015",
+        "nombre": "Cinta Teflón",
+        "precio": 15,
+        "existencia": 80
+    },
+    {
+        "codigo": "FER016",
+        "nombre": "Pintura Blanca 19 L",
+        "precio": 1450,
+        "existencia": 8
+    },
+    {
+        "codigo": "FER017",
+        "nombre": "Brocha 4\"",
+        "precio": 95,
+        "existencia": 25
+    },
+    {
+        "codigo": "FER018",
+        "nombre": "Rodillo para Pintura",
+        "precio": 110,
+        "existencia": 20
+    },
+    {
+        "codigo": "FER019",
+        "nombre": "Tornillo para Madera 2\" Caja",
+        "precio": 75,
+        "existencia": 150
+    },
+    {
+        "codigo": "FER020",
+        "nombre": "Taquete Plástico 1/4\" Bolsa",
+        "precio": 60,
+        "existencia": 90
+    }
+]
