@@ -14,11 +14,11 @@ try {
     const productos = XLSX.utils.sheet_to_json(hoja);
 
     fs.writeFileSync(
-        "productos.json",
+        "productos.txt",
         JSON.stringify(productos, null, 4)
     );
 
-    console.log("✅ productos.json generado correctamente");
+    console.log("✅ productos.txt generado correctamente");
 
 } catch (error) {
 

@@ -1,48 +1,93 @@
 const contenedor = document.getElementById("contenedor-productos");
 const buscador = document.getElementById("buscarProducto");
 
+const pregunta =
+    document.getElementById("pregunta");
+
+const btnConsultar =
+    document.getElementById("btnConsultar");
+
+const respuesta =
+    document.getElementById("respuesta");
+
 let productos = [];
-
-function mostrarProductos(listaProductos) {
-
-    contenedor.innerHTML = "";
-
-    listaProductos.forEach(producto => {
-
-        contenedor.innerHTML += `
-            <div class="producto">
-
-                <h3>${producto.nombre}</h3>
-
-                <p><strong>Código:</strong> ${producto.codigo}</p>
-
-                <p><strong>Precio:</strong> $${producto.precio} MXN</p>
-
-                <p><strong>Existencia:</strong> ${producto.existencia}</p>
-
-            </div>
-        `;
-    });
-}
 
 async function cargarProductos() {
 
-    const respuesta = await fetch("productos.json");
+    const respuesta = await fetch("productos.txt");
 
     productos = await respuesta.json();
 
-    mostrarProductos(productos);
 }
 
-buscador.addEventListener("input", () => {
+cargarProductos();
 
-    const texto = buscador.value.toLowerCase();
+btnConsultar.addEventListener("click", () => {
 
-    const filtrados = productos.filter(producto =>
-        producto.nombre.toLowerCase().includes(texto)
+    const texto = pregunta.value.toLowerCase().trim();
+
+    if (texto === "") {
+
+        respuesta.innerHTML = `
+            <p>
+                Por favor escribe el nombre o código de un producto.
+            </p>
+        `;
+
+        return;
+
+    }
+
+
+    const resultados = productos.filter(producto =>
+        producto.nombre.toLowerCase().includes(texto) ||
+        producto.codigo.toLowerCase().includes(texto)
     );
 
-    mostrarProductos(filtrados);
+    if (resultados.length > 0) {
+
+        respuesta.innerHTML = "";
+
+        resultados.forEach(producto => {
+
+            respuesta.innerHTML += `
+                <h3>${producto.nombre}</h3>
+
+                <p><strong>Código:</strong>
+                ${producto.codigo}</p>
+
+                <p><strong>Precio:</strong>
+                $${producto.precio} MXN</p>
+
+                <p><strong>Existencia:</strong>
+                ${producto.existencia}</p>
+
+                <hr>
+            `;
+
+        });
+
+    } else {
+
+        respuesta.innerHTML = `
+            <p>
+                Lo siento, no encontré productos relacionados con:
+                <strong>${pregunta.value}</strong>
+            </p>
+        `;
+
+    }
+
+    pregunta.value = "";
+
 });
 
-cargarProductos();
+pregunta.addEventListener("keypress", (event) => {
+
+    if (event.key === "Enter") {
+
+        btnConsultar.click();
+
+    }
+
+});

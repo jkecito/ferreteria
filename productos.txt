@@ -1,0 +1,974 @@
+[
+    {
+        "codigo": "FC0001",
+        "nombre": "Martillo de uña 16 oz",
+        "precio": 120,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0002",
+        "nombre": "Martillo de bola 16 oz",
+        "precio": 140,
+        "existencia": 10
+    },
+    {
+        "codigo": "FC0003",
+        "nombre": "Pinzas de electricista 8\"",
+        "precio": 95,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0004",
+        "nombre": "Pinzas de punta 6\"",
+        "precio": 85,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0005",
+        "nombre": "Pinzas de presión 10\"",
+        "precio": 150,
+        "existencia": 12
+    },
+    {
+        "codigo": "FC0006",
+        "nombre": "Llave inglesa 8\"",
+        "precio": 110,
+        "existencia": 10
+    },
+    {
+        "codigo": "FC0007",
+        "nombre": "Llave inglesa 10\"",
+        "precio": 145,
+        "existencia": 8
+    },
+    {
+        "codigo": "FC0008",
+        "nombre": "Llave stilson 12\"",
+        "precio": 180,
+        "existencia": 6
+    },
+    {
+        "codigo": "FC0009",
+        "nombre": "Llave stilson 14\"",
+        "precio": 220,
+        "existencia": 5
+    },
+    {
+        "codigo": "FC0010",
+        "nombre": "Juego de llaves mixtas (10 pzas)",
+        "precio": 450,
+        "existencia": 4
+    },
+    {
+        "codigo": "FC0011",
+        "nombre": "Juego de llaves Allen (pulgadas)",
+        "precio": 85,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0012",
+        "nombre": "Juego de llaves Allen (milimétricas)",
+        "precio": 85,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0013",
+        "nombre": "Destornillador de cruz #1",
+        "precio": 35,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0014",
+        "nombre": "Destornillador de cruz #2",
+        "precio": 40,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0015",
+        "nombre": "Destornillador plano 1/8\"",
+        "precio": 30,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0016",
+        "nombre": "Destornillador plano 3/16\"",
+        "precio": 35,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0017",
+        "nombre": "Flexómetro 3m",
+        "precio": 50,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0018",
+        "nombre": "Flexómetro 5m",
+        "precio": 80,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0019",
+        "nombre": "Flexómetro 8m",
+        "precio": 120,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0020",
+        "nombre": "Nivel de gota 14\"",
+        "precio": 90,
+        "existencia": 10
+    },
+    {
+        "codigo": "FC0021",
+        "nombre": "Arco para sierra",
+        "precio": 75,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0022",
+        "nombre": "Seguetas para metal (paquete 10)",
+        "precio": 45,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0023",
+        "nombre": "Cúter profesional",
+        "precio": 60,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0024",
+        "nombre": "Hojas para cúter (paquete 10)",
+        "precio": 25,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0025",
+        "nombre": "Espátula 2\"",
+        "precio": 25,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0026",
+        "nombre": "Espátula 4\"",
+        "precio": 40,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0027",
+        "nombre": "Tijeras para lámina",
+        "precio": 180,
+        "existencia": 8
+    },
+    {
+        "codigo": "FC0028",
+        "nombre": "Cincel 3/4\"",
+        "precio": 60,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0029",
+        "nombre": "Cincel 1\"",
+        "precio": 75,
+        "existencia": 12
+    },
+    {
+        "codigo": "FC0030",
+        "nombre": "Formón 1/2\"",
+        "precio": 85,
+        "existencia": 10
+    },
+    {
+        "codigo": "FC0031",
+        "nombre": "Remachadora manual",
+        "precio": 150,
+        "existencia": 8
+    },
+    {
+        "codigo": "FC0032",
+        "nombre": "Pistola para silicón",
+        "precio": 65,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0033",
+        "nombre": "Taladro percutor 1/2\"",
+        "precio": 850,
+        "existencia": 5
+    },
+    {
+        "codigo": "FC0034",
+        "nombre": "Esmeriladora angular 4 1/2\"",
+        "precio": 750,
+        "existencia": 4
+    },
+    {
+        "codigo": "FC0035",
+        "nombre": "Sierra circular 7 1/4\"",
+        "precio": 1200,
+        "existencia": 3
+    },
+    {
+        "codigo": "FC0036",
+        "nombre": "Caladora 400W",
+        "precio": 650,
+        "existencia": 4
+    },
+    {
+        "codigo": "FC0037",
+        "nombre": "Rotomartillo SDS",
+        "precio": 1600,
+        "existencia": 2
+    },
+    {
+        "codigo": "FC0038",
+        "nombre": "Pistola de calor",
+        "precio": 450,
+        "existencia": 5
+    },
+    {
+        "codigo": "FC0039",
+        "nombre": "Lijadora orbital",
+        "precio": 550,
+        "existencia": 4
+    },
+    {
+        "codigo": "FC0040",
+        "nombre": "Inversora de soldadura 130A",
+        "precio": 2100,
+        "existencia": 2
+    },
+    {
+        "codigo": "FC0041",
+        "nombre": "Compresor de aire 24L",
+        "precio": 2500,
+        "existencia": 2
+    },
+    {
+        "codigo": "FC0042",
+        "nombre": "Pulidora 7\"",
+        "precio": 1300,
+        "existencia": 3
+    },
+    {
+        "codigo": "FC0043",
+        "nombre": "Broca para concreto 1/4\"",
+        "precio": 20,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0044",
+        "nombre": "Broca para concreto 3/8\"",
+        "precio": 30,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0045",
+        "nombre": "Broca para metal 1/4\"",
+        "precio": 25,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0046",
+        "nombre": "Broca para metal 1/8\"",
+        "precio": 15,
+        "existencia": 60
+    },
+    {
+        "codigo": "FC0047",
+        "nombre": "Broca para madera 1/4\"",
+        "precio": 22,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0048",
+        "nombre": "Disco de corte para metal 4 1/2\"",
+        "precio": 25,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0049",
+        "nombre": "Disco de desbaste 4 1/2\"",
+        "precio": 35,
+        "existencia": 80
+    },
+    {
+        "codigo": "FC0050",
+        "nombre": "Disco de diamante continuo 4 1/2\"",
+        "precio": 120,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0051",
+        "nombre": "Disco de diamante segmentado 4 1/2\"",
+        "precio": 130,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0052",
+        "nombre": "Soldadura 6013 1/8 (kg)",
+        "precio": 65,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0053",
+        "nombre": "Electrodo 7018 1/8 (kg)",
+        "precio": 75,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0054",
+        "nombre": "Alambre recocido (kg)",
+        "precio": 35,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0055",
+        "nombre": "Clavo para madera 2\" (kg)",
+        "precio": 45,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0056",
+        "nombre": "Clavo para madera 2.5\" (kg)",
+        "precio": 45,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0057",
+        "nombre": "Clavo para concreto 2\" (caja)",
+        "precio": 30,
+        "existencia": 60
+    },
+    {
+        "codigo": "FC0058",
+        "nombre": "Pijas para madera 1\" (caja 100)",
+        "precio": 25,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0059",
+        "nombre": "Pijas para madera 1.5\" (caja 100)",
+        "precio": 35,
+        "existencia": 45
+    },
+    {
+        "codigo": "FC0060",
+        "nombre": "Pijas para tablaroca 1\" (caja 100)",
+        "precio": 20,
+        "existencia": 60
+    },
+    {
+        "codigo": "FC0061",
+        "nombre": "Pijas para tablaroca 1.5\" (caja 100)",
+        "precio": 28,
+        "existencia": 55
+    },
+    {
+        "codigo": "FC0062",
+        "nombre": "Taquetes de plástico 1/4\" (100 pzas)",
+        "precio": 15,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0063",
+        "nombre": "Taquetes de plástico 5/16\" (100 pzas)",
+        "precio": 18,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0064",
+        "nombre": "Taquetes expansivos 3/8\"",
+        "precio": 8,
+        "existencia": 200
+    },
+    {
+        "codigo": "FC0065",
+        "nombre": "Tornillo hexagonal 1/4x1\"",
+        "precio": 3,
+        "existencia": 300
+    },
+    {
+        "codigo": "FC0066",
+        "nombre": "Tornillo hexagonal 5/16x1.5\"",
+        "precio": 5,
+        "existencia": 250
+    },
+    {
+        "codigo": "FC0067",
+        "nombre": "Tuerca hexagonal 1/4\"",
+        "precio": 1.5,
+        "existencia": 500
+    },
+    {
+        "codigo": "FC0068",
+        "nombre": "Tuerca hexagonal 5/16\"",
+        "precio": 2,
+        "existencia": 400
+    },
+    {
+        "codigo": "FC0069",
+        "nombre": "Rondana plana 1/4\"",
+        "precio": 0.5,
+        "existencia": 1000
+    },
+    {
+        "codigo": "FC0070",
+        "nombre": "Rondana de presión 1/4\"",
+        "precio": 0.6,
+        "existencia": 1000
+    },
+    {
+        "codigo": "FC0071",
+        "nombre": "Varilla roscada 3/8\" (metro)",
+        "precio": 45,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0072",
+        "nombre": "Remaches pop 1/8x1/4\" (100)",
+        "precio": 20,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0073",
+        "nombre": "Remaches pop 5/32x1/2\" (100)",
+        "precio": 25,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0074",
+        "nombre": "Cinchos de plástico 15cm (100)",
+        "precio": 15,
+        "existencia": 60
+    },
+    {
+        "codigo": "FC0075",
+        "nombre": "Cinchos de plástico 20cm (100)",
+        "precio": 25,
+        "existencia": 60
+    },
+    {
+        "codigo": "FC0076",
+        "nombre": "Grapas para cable (100)",
+        "precio": 18,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0077",
+        "nombre": "Abrazadera sinfín 1/2\"",
+        "precio": 8,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0078",
+        "nombre": "Abrazadera sinfín 1\"",
+        "precio": 12,
+        "existencia": 80
+    },
+    {
+        "codigo": "FC0079",
+        "nombre": "Abrazadera sinfín 2\"",
+        "precio": 18,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0080",
+        "nombre": "Bandola mosquetón 3/8\"",
+        "precio": 25,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0081",
+        "nombre": "Armella cerrada (caja)",
+        "precio": 40,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0082",
+        "nombre": "Armella abierta (caja)",
+        "precio": 40,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0083",
+        "nombre": "Tubo PVC hidráulico 1/2\" (tramo 3m)",
+        "precio": 45,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0084",
+        "nombre": "Tubo PVC hidráulico 3/4\" (tramo 3m)",
+        "precio": 65,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0085",
+        "nombre": "Codo PVC 1/2\" 90°",
+        "precio": 4,
+        "existencia": 150
+    },
+    {
+        "codigo": "FC0086",
+        "nombre": "Codo PVC 3/4\" 90°",
+        "precio": 6,
+        "existencia": 120
+    },
+    {
+        "codigo": "FC0087",
+        "nombre": "T de PVC 1/2\"",
+        "precio": 5,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0088",
+        "nombre": "T de PVC 3/4\"",
+        "precio": 8,
+        "existencia": 80
+    },
+    {
+        "codigo": "FC0089",
+        "nombre": "Cople PVC 1/2\"",
+        "precio": 3,
+        "existencia": 150
+    },
+    {
+        "codigo": "FC0090",
+        "nombre": "Adaptador macho PVC 1/2\"",
+        "precio": 4,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0091",
+        "nombre": "Adaptador hembra PVC 1/2\"",
+        "precio": 4,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0092",
+        "nombre": "Tubo CPVC 1/2\" (tramo 3m)",
+        "precio": 55,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0093",
+        "nombre": "Codo CPVC 1/2\" 90°",
+        "precio": 6,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0094",
+        "nombre": "T de CPVC 1/2\"",
+        "precio": 8,
+        "existencia": 80
+    },
+    {
+        "codigo": "FC0095",
+        "nombre": "Pegamento para PVC 118ml",
+        "precio": 35,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0096",
+        "nombre": "Pegamento para CPVC 118ml",
+        "precio": 45,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0097",
+        "nombre": "Cinta teflón 1/2\"",
+        "precio": 8,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0098",
+        "nombre": "Cinta teflón 3/4\"",
+        "precio": 12,
+        "existencia": 80
+    },
+    {
+        "codigo": "FC0099",
+        "nombre": "Válvula de esfera 1/2\"",
+        "precio": 65,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0100",
+        "nombre": "Válvula de esfera 3/4\"",
+        "precio": 85,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0101",
+        "nombre": "Llave de nariz 1/2\"",
+        "precio": 95,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0102",
+        "nombre": "Manguera flexible para fregadero",
+        "precio": 60,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0103",
+        "nombre": "Manguera flexible para lavabo",
+        "precio": 55,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0104",
+        "nombre": "Empaques para llave (juego)",
+        "precio": 15,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0105",
+        "nombre": "Flotador para tinaco",
+        "precio": 85,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0106",
+        "nombre": "Válvula de llenado para wc",
+        "precio": 120,
+        "existencia": 12
+    },
+    {
+        "codigo": "FC0107",
+        "nombre": "Sapo para wc",
+        "precio": 35,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0108",
+        "nombre": "Cuello de cera para wc",
+        "precio": 25,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0109",
+        "nombre": "Céspol para lavabo PVC",
+        "precio": 45,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0110",
+        "nombre": "Céspol para fregadero PVC",
+        "precio": 55,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0111",
+        "nombre": "Rejilla para coladera acero inox",
+        "precio": 40,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0112",
+        "nombre": "Destapacaños líquido 1L",
+        "precio": 55,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0113",
+        "nombre": "Cable THW calibre 12 (metro) rojo",
+        "precio": 12,
+        "existencia": 200
+    },
+    {
+        "codigo": "FC0114",
+        "nombre": "Cable THW calibre 12 (metro) negro",
+        "precio": 12,
+        "existencia": 200
+    },
+    {
+        "codigo": "FC0115",
+        "nombre": "Cable THW calibre 12 (metro) verde",
+        "precio": 12,
+        "existencia": 150
+    },
+    {
+        "codigo": "FC0116",
+        "nombre": "Cable THW calibre 14 (metro) blanco",
+        "precio": 9,
+        "existencia": 200
+    },
+    {
+        "codigo": "FC0117",
+        "nombre": "Cable de uso rudo 2x12 (metro)",
+        "precio": 22,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0118",
+        "nombre": "Cinta de aislar negra 18m",
+        "precio": 18,
+        "existencia": 80
+    },
+    {
+        "codigo": "FC0119",
+        "nombre": "Cinta de aislar de colores (paquete)",
+        "precio": 45,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0120",
+        "nombre": "Foco LED 9W luz blanca",
+        "precio": 25,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0121",
+        "nombre": "Foco LED 9W luz cálida",
+        "precio": 25,
+        "existencia": 80
+    },
+    {
+        "codigo": "FC0122",
+        "nombre": "Foco LED 12W",
+        "precio": 35,
+        "existencia": 60
+    },
+    {
+        "codigo": "FC0123",
+        "nombre": "Base/Socket de porcelana",
+        "precio": 15,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0124",
+        "nombre": "Contacto dúplex blanco",
+        "precio": 35,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0125",
+        "nombre": "Apagador sencillo",
+        "precio": 25,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0126",
+        "nombre": "Placa de 2 ventanas",
+        "precio": 15,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0127",
+        "nombre": "Placa de 1 ventana",
+        "precio": 15,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0128",
+        "nombre": "Centro de carga 2 pastillas",
+        "precio": 180,
+        "existencia": 10
+    },
+    {
+        "codigo": "FC0129",
+        "nombre": "Centro de carga 4 pastillas",
+        "precio": 250,
+        "existencia": 8
+    },
+    {
+        "codigo": "FC0130",
+        "nombre": "Pastilla termomagnética 15A",
+        "precio": 85,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0131",
+        "nombre": "Pastilla termomagnética 20A",
+        "precio": 85,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0132",
+        "nombre": "Pastilla termomagnética 30A",
+        "precio": 85,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0133",
+        "nombre": "Chalupa galvanizada",
+        "precio": 8,
+        "existencia": 100
+    },
+    {
+        "codigo": "FC0134",
+        "nombre": "Caja cuadrada galvanizada 1/2\"",
+        "precio": 12,
+        "existencia": 80
+    },
+    {
+        "codigo": "FC0135",
+        "nombre": "Tubo conduit flexible 1/2\" (rollo 30m)",
+        "precio": 220,
+        "existencia": 10
+    },
+    {
+        "codigo": "FC0136",
+        "nombre": "Tubo conduit PVC 1/2\" (tramo 3m)",
+        "precio": 25,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0137",
+        "nombre": "Codo conduit PVC 1/2\"",
+        "precio": 4,
+        "existencia": 150
+    },
+    {
+        "codigo": "FC0138",
+        "nombre": "Conector conduit PVC 1/2\"",
+        "precio": 3,
+        "existencia": 200
+    },
+    {
+        "codigo": "FC0139",
+        "nombre": "Clavija reforzada",
+        "precio": 18,
+        "existencia": 60
+    },
+    {
+        "codigo": "FC0140",
+        "nombre": "Receptáculo reforzado",
+        "precio": 22,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0141",
+        "nombre": "Extensión eléctrica 5m",
+        "precio": 85,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0142",
+        "nombre": "Extensión eléctrica 10m",
+        "precio": 150,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0143",
+        "nombre": "Pintura vinílica blanca (Galón)",
+        "precio": 250,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0144",
+        "nombre": "Pintura esmalte negro (Litro)",
+        "precio": 120,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0145",
+        "nombre": "Brocha de pelo de camello 1\"",
+        "precio": 15,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0146",
+        "nombre": "Brocha 2\"",
+        "precio": 25,
+        "existencia": 35
+    },
+    {
+        "codigo": "FC0147",
+        "nombre": "Brocha 3\"",
+        "precio": 40,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0148",
+        "nombre": "Rodillo 9\" con felpa",
+        "precio": 65,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0149",
+        "nombre": "Charola para pintar",
+        "precio": 35,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0150",
+        "nombre": "Thinner estándar (Litro)",
+        "precio": 40,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0151",
+        "nombre": "Aguarrás (Litro)",
+        "precio": 45,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0152",
+        "nombre": "Sellador acrílico (Litro)",
+        "precio": 85,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0153",
+        "nombre": "Guantes de carnaza",
+        "precio": 45,
+        "existencia": 30
+    },
+    {
+        "codigo": "FC0154",
+        "nombre": "Guantes de nitrilo",
+        "precio": 35,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0155",
+        "nombre": "Lentes de seguridad claros",
+        "precio": 30,
+        "existencia": 50
+    },
+    {
+        "codigo": "FC0156",
+        "nombre": "Lentes de seguridad oscuros",
+        "precio": 35,
+        "existencia": 40
+    },
+    {
+        "codigo": "FC0157",
+        "nombre": "Mascarilla para polvo (caja 50)",
+        "precio": 95,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0158",
+        "nombre": "Casco de seguridad amarillo",
+        "precio": 85,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0159",
+        "nombre": "Chaleco reflejante",
+        "precio": 65,
+        "existencia": 25
+    },
+    {
+        "codigo": "FC0160",
+        "nombre": "Candado de latón 40mm",
+        "precio": 80,
+        "existencia": 20
+    },
+    {
+        "codigo": "FC0161",
+        "nombre": "Candado de latón 50mm",
+        "precio": 110,
+        "existencia": 15
+    },
+    {
+        "codigo": "FC0162",
+        "nombre": "Cadena galvanizada 3/16\" (metro)",
+        "precio": 45,
+        "existencia": 50
+    }
+]

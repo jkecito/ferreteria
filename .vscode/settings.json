@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/8b2e883b-94cd-4237-a4a9-eefc7a3ab8f3/resourceGroups/rg-ferreteria/providers/Microsoft.Web/sites/FerreteriaCesar",
+    "appService.deploySubpath": "."
+}

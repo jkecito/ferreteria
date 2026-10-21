@@ -31,23 +31,36 @@
             plomería, tornillería, pinturas y mucho más.
         </p>
 
-        <button id="btnProductos">
-            Ver Productos
+    </section>
+
+    <section class="chatbot">
+
+        <h2>Asistente Inteligente de Ferretería</h2>
+
+        <p>
+            Consulta precios, códigos y existencia de productos
+            utilizando el asistente virtual.
+        </p>
+
+        <input
+            type="text"
+            id="pregunta"
+            placeholder="Escribe el nombre o código del producto..."
+        >
+
+        <button id="btnConsultar">
+            Consultar
         </button>
+
+        <div id="respuesta"></div>
 
     </section>
 
-    <div class="buscador">
-    <input
-        type="text"
-        id="buscarProducto"
-        placeholder="Buscar producto..."
-    >
- </div>
-
-
-<div id="contenedor-productos" class="contenedor-productos">
-</div>
+    <!-- Catálogo oculto para que el chatbot siga funcionando -->
+    <div id="contenedor-productos"
+         class="contenedor-productos"
+         style="display:none;">
+    </div>
 
     <footer>
         <p>© 2026 Ferretería César</p>
