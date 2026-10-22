@@ -13,14 +13,15 @@ Crear una página web para una ferretería que permita:
 
 ## Tecnologías utilizadas
 
+-Vitual Studio Code
 - HTML
 - CSS
 - JavaScript
 - Node.js
 - Git
 - GitHub
-- Azure (próximamente)
-- Azure AI Foundry (próximamente)
+- Azure 
+- Azure AI Foundry 
 
 ## Estructura del proyecto
 
@@ -31,57 +32,22 @@ web_ferreteria_cesar
 ├── estilos.css
 ├── script.js
 ├── productos.xlsx
-├── productos.json
-├── excel-a-json.js
-├── package.json
+├── ...
+├── ...
+├── ...
 ├── README.md
 └── .gitignore
 ```
 
-## Flujo de trabajo
-
-```text
-productos.xlsx
-        ↓
-excel-a-json.js
-        ↓
-productos.json
-        ↓
-Página Web
-```
-
-## Actualizar productos
-
-1. Modificar el archivo:
-
-```text
-productos.xlsx
-```
-
-2. Ejecutar:
-
-```bash
-node excel-a-json.js
-```
-
-3. Refrescar la página web.
 
 ## Funcionalidades implementadas
 
-- Catálogo dinámico de productos.
+
 - Búsqueda de productos.
-- Lectura de datos desde JSON.
-- Conversión automática de Excel a JSON.
 - Control de versiones con Git.
 - Respaldo del proyecto en GitHub.
 
-## Próximas mejoras
-
-- Publicación en Azure App Service.
-- Diseño comercial para la ferretería.
-- Integración con Azure AI Foundry.
-- Chatbot para consulta de precios e inventario.
 
 ## Autor
 
-CESAR GODINEZ HUERTA
+CESAR 
