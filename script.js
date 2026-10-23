@@ -22,15 +22,15 @@ async function cargarProductos() {
 
 cargarProductos();
 
-btnConsultar.addEventListener("click", () => {
+btnConsultar.addEventListener("click", async () => {
 
-    const texto = pregunta.value.toLowerCase().trim();
+    const texto = pregunta.value.trim();
 
     if (texto === "") {
 
         respuesta.innerHTML = `
             <p>
-                Por favor escribe el nombre o código de un producto.
+                Por favor escribe una consulta.
             </p>
         `;
 
@@ -38,41 +38,41 @@ btnConsultar.addEventListener("click", () => {
 
     }
 
+    respuesta.innerHTML =
+        "<p>Consultando asistente...</p>";
 
-    const resultados = productos.filter(producto =>
-        producto.nombre.toLowerCase().includes(texto) ||
-        producto.codigo.toLowerCase().includes(texto)
-    );
+    try {
 
-    if (resultados.length > 0) {
+        const apiResponse = await fetch(
+    "http://localhost:3000/chat",
+    {
+        method: "POST",
 
-        respuesta.innerHTML = "";
+        headers: {
+            "Content-Type": "application/json"
+        },
 
-        resultados.forEach(producto => {
+        body: JSON.stringify({
+            pregunta: texto
+        })
+    }
+);
 
-            respuesta.innerHTML += `
-                <h3>${producto.nombre}</h3>
+        const data =
+            await apiResponse.json();
 
-                <p><strong>Código:</strong>
-                ${producto.codigo}</p>
+        respuesta.innerHTML = `
+            <p>${data.respuesta}</p>
+        `;
 
-                <p><strong>Precio:</strong>
-                $${producto.precio} MXN</p>
+    }
+    catch (error) {
 
-                <p><strong>Existencia:</strong>
-                ${producto.existencia}</p>
-
-                <hr>
-            `;
-
-        });
-
-    } else {
+        console.error(error);
 
         respuesta.innerHTML = `
             <p>
-                Lo siento, no encontré productos relacionados con:
-                <strong>${pregunta.value}</strong>
+                Error al consultar el asistente.
             </p>
         `;
 
