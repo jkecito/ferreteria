@@ -11,6 +11,14 @@ app.use(cors());
 
 app.use(express.json());
 
+app.use(express.static(__dirname));
+
+app.get("/test", (req, res) => {
+
+    res.send("EXPRESS FUNCIONANDO");
+
+});
+
 app.get("/", (req, res) => {
 
     res.send("Servidor Ferretería César funcionando");
