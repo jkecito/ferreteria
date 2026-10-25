@@ -21,6 +21,9 @@ app.post("/chat", async (req, res) => {
 
     try {
 
+        console.log("=== NUEVA CONSULTA ===");
+        console.log(req.body);
+
         const pregunta = req.body.pregunta;
 
         const credential =
@@ -73,21 +76,29 @@ app.post("/chat", async (req, res) => {
     }
     catch (error) {
 
-        console.error(error);
+    console.error("ERROR COMPLETO:");
+    console.error(error);
 
-        res.status(500).json({
-            respuesta:
-                "Error al consultar Azure AI Foundry."
-        });
-
+    if (error.stack) {
+        console.error(error.stack);
     }
+
+    res.status(500).json({
+        respuesta:
+            error.message || "Error desconocido"
+    });
+
+}
+
 
 });
 
-app.listen(3000, () => {
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
 
     console.log(
-        "Servidor iniciado en puerto 3000"
+        `Servidor iniciado en puerto ${PORT}`
     );
 
 });

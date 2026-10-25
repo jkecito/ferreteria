@@ -44,7 +44,7 @@ btnConsultar.addEventListener("click", async () => {
     try {
 
         const apiResponse = await fetch(
-    "http://localhost:3000/chat",
+            "/chat",
     {
         method: "POST",
 
