@@ -17,6 +17,12 @@ app.get("/", (req, res) => {
 
 });
 
+app.get("/test", (req, res) => {
+
+    res.send("EXPRESS FUNCIONANDO");
+
+});
+
 app.post("/chat", async (req, res) => {
 
     try {
