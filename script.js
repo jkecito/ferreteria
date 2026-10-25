@@ -72,7 +72,7 @@ btnConsultar.addEventListener("click", async () => {
 
         respuesta.innerHTML = `
             <p>
-                Error al consultar el asistente.
+                 ${error.message}
             </p>
         `;
 
