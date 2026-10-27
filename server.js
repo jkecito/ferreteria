@@ -74,6 +74,10 @@ app.post("/chat", async (req, res) => {
         const data =
             await response.json();
 
+         console.log("========== RESPUESTA FOUNDRY ==========");
+         console.log(JSON.stringify(data, null, 2));
+         console.log("=======================================");
+
         const mensaje =
             data.output
                 ?.find(item =>
