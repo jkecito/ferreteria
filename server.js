@@ -25,18 +25,9 @@ app.get("/", (req, res) => {
 
 });
 
-app.get("/test", (req, res) => {
-
-    res.send("EXPRESS FUNCIONANDO");
-
-});
-
 app.post("/chat", async (req, res) => {
 
     try {
-
-        console.log("=== NUEVA CONSULTA ===");
-        console.log(req.body);
 
         const pregunta = req.body.pregunta;
 
@@ -74,10 +65,6 @@ app.post("/chat", async (req, res) => {
         const data =
             await response.json();
 
-         console.log("========== RESPUESTA FOUNDRY ==========");
-         console.log(JSON.stringify(data, null, 2));
-         console.log("=======================================");
-
         const mensaje =
             data.output
                 ?.find(item =>
@@ -94,20 +81,14 @@ app.post("/chat", async (req, res) => {
     }
     catch (error) {
 
-    console.error("ERROR COMPLETO:");
-    console.error(error);
+        console.error(error);
 
-    if (error.stack) {
-        console.error(error.stack);
+        res.status(500).json({
+            respuesta:
+                error.message || "Error desconocido"
+        });
+
     }
-
-    res.status(500).json({
-        respuesta:
-            error.message || "Error desconocido"
-    });
-
-}
-
 
 });
 
