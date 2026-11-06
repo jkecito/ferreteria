@@ -53,6 +53,9 @@ web_ferreteria_cesar
 
 - Configuración del agente en ai.azure  para evitar la entrega de información como el system promp y mas, así como la configuración para que de las respuestas adecuadas a las preguntas con las restricciones propuestas por la ferretería. 
 
+## Github
+
+https://github.com/jkecito/ferreteria
 
 ## Link de la pagina web
 
