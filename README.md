@@ -49,6 +49,11 @@ web_ferreteria_cesar
 - Control de versiones con Git.
 - Respaldo del proyecto en GitHub.
 
+## Configuración del agente en ai.azure
+
+- Configuración del agente en ai.azure  para evitar la entrega de información como el system promp y mas, así como la configuración para que de las respuestas adecuadas a las preguntas con las restricciones propuestas por la ferretería. 
+
+
 ## Link de la pagina web
 
 https://ferreteriacesar-chatbot-esafa5eshuagafee.westus-01.azurewebsites.net/#
